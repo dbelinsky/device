@@ -52,14 +52,14 @@ body {
   margin:20px auto;
   box-shadow:0px 0px 40px #000;
 }
-.carousel > img {
+.carousel > .one {
   display:none;
 }
 .carousel > input {
   position:absolute;
   left:-9999px;
 }
-.carousel > input:checked + label + img {
+.carousel > input:checked + label + .one {
   display:block;
 }
 
