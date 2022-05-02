@@ -1,0 +1,64 @@
+<input id="image1" type="radio" name="image-selector" checked="checked" />
+<label for="image4">View image 4</label>
+<img src="images\products\drone.png" height="560" width="560">
+
+<input id="image3" type="radio" name="image-selector" />
+<label for="image2">View image 2</label>
+<img src="images\products\watch.png" />
+
+<input id="image4" type="radio" name="image-selector" />
+<label for="image3">View image 3</label>
+<img src="images\products\pods.png" />
+
+
+<div class="slider">
+    <div class="slider-item left">
+      <input id="image1" type="radio" name="image-selector" checked="checked" />
+      <label for="image4">View image 4</label>
+      <img src="images\products\drone.png" height="560" width="560">
+    </div>
+    <div class="slider-item-right">
+      <p class="slider-name">Порхает как бабочка,<br> жалит как пчела!</p>
+      <p class="slider-text">Этот обычный, на первый взгляд, квадрокоптер оснащен<br> мощным лазером, замаскированным под стандартную камеру.</p>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="slider-item left">
+      <input id="image3" type="radio" name="image-selector" />
+      <label for="image2">View image 2</label>
+      <img src="images\products\watch.png" height="560" width="560">
+    </div>
+    <div class="slider-item-right">
+      <p class="slider-name">Порхает как бабочка,<br> жалит как пчела!</p>
+      <p class="slider-text">Этот обычный, на первый взгляд, квадрокоптер оснащен<br> мощным лазером, замаскированным под стандартную камеру.</p>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="slider-item left">
+      <input id="image4" type="radio" name="image-selector" />
+      <label for="image3">View image 3</label>
+      <img src="images\products\pods.png" height="560" width="560">
+    </div>
+    <div class="slider-item-right">
+      <p class="slider-name">Порхает как бабочка,<br> жалит как пчела!</p>
+      <p class="slider-text">Этот обычный, на первый взгляд, квадрокоптер оснащен<br> мощным лазером, замаскированным под стандартную камеру.</p>
+    </div>
+  </div>
+
+
+
+  <input id="image1" type="radio" name="image-selector" checked="checked" />
+  <label for="image4">View image 4</label>
+  <img src="images\products\drone.png" height="560" width="560">
+
+  <input id="image3" type="radio" name="image-selector" />
+  <label for="image2">View image 2</label>
+  <img src="images\products\watch.png" />
+
+  <input id="image4" type="radio" name="image-selector" />
+  <label for="image3">View image 3</label>
+  <img src="images\products\pods.png" />
+  
+  <label for="image4">View image 4</label>
+  <label for="image1">View image 1</label>
+</div>

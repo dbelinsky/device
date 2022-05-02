@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: {{projectTitle}}</title>
+    <link rel="stylesheet" type="text/css" href="styles-test.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="header-container">
+        <a class="logo" href="index.com"><img src="images\vector\logo.png"  alt="logo"></a>
+        <div class="header-top">
+          <form class="search-form" action="http://echo.htmlacademy.ru" method="get">
+            <label class="visually-hidden" for="search-form-input">Поле поиска</label>
+            <input type="text" class="main-header-search" name="search-input" id="search-form-input" placeholder="Поиск по сайту">
+            <button type="submit" class="button search-button">Найти</button>
+          </form>
+          <ul class="user-function">войти</ul>
+          <ul class="user-function">сравнить</ul>
+          <ul class="user-function">корзина</ul>
+        </div>
+        <div class="header-bottom">
+          <ul class="catalog-items">
+            <li class="user-service">каталог товаров</li>
+            <li class="user-service">каталог товаров</li>
+            <li class="user-service">доставка</li>
+            <li class="user-service">гарантия</li>
+            <li class="user-service">контакты</li>
+          </ul>       
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Интернет-магазин гаджетов "Девайс"</h1>
+      <div class="carousel">
+        <input id="image1" type="radio" name="image-selector" checked="checked" />
+        <label for="image4">View image 4</label>
+        <img src="images\products\drone.png" height="560" width="560">
+      
+        <input id="image3" type="radio" name="image-selector" />
+        <label for="image2">View image 2</label>
+        <img src="images\products\watch.png" />
+      
+        <input id="image4" type="radio" name="image-selector" />
+        <label for="image3">View image 3</label>
+        <img src="images\products\pods.png" />
+        
+        <label for="image4">View image 4</label>
+        <label for="image1">View image 1</label>
+</div>
+      <section class="categorios"></section>
+      <section class="delivery"></section>
+      <section class="rare-items"></section>
+      <div class="about-columns"></div>
+      <div class="mailing"></div>
+    </main>
+    <footer>
+      <div class="logo">
+          <a href="index.com"><img src="images/vector/" alt="logo"></a>
+      </div>
+      <div class="second-footer-line">
+        <div class="footer-item">
+          <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+        </div>
+        <ul class="footer-item-list">
+          <li>
+            <a class="footer-item-link">доставка</a>
+          </li>
+          <li>
+            <a class="footer-item-link">гарантия</a>
+          </li>
+          <li>
+            <a class="footer-item-link">оплата</a>
+          </li>
+        </ul>
+        <div class="footer-item">
+          <a class="footer-item-link">Тел.: +7 (812) 812-12-12</a>
+        </div>
+      </div>
+      <div class="third-footer-line">
+          <a class="footer-social-link-fb" href="facebook.com">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" fill="white" fill-opacity="0.3"/>
+              </svg>
+          </a>
+          <a class="footer-social-link-inst" href="instagram.com">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" fill="white" fill-opacity="0.3"/>
+              </svg>
+          </a>
+          <a class="footer-social-link-twtr" href="twitter.com">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" fill="white" fill-opacity="0.3"/>
+              </svg>
+          </a>
+          <a class="html-logo" href="index.com"><img src="images/vector/html-academy-logo.png" alt="html-logo"></a>
+      </div>
+    </footer>
+  </body>
+</html>
